@@ -1,0 +1,120 @@
+﻿
+====================================================================================================
+small : 20 examens, 11 groupes, 15 créneaux (5 j × 3 séances), 5 salles (254 places), 12 surveillants
+évaluation d'une solution : 0.45 ms — gloutonne : 5 ms
+
+Gloutonne — contraintes :
+Contrainte   Type                                     Libellé   Valeur  Poids     Coût
+        H1   dure    Groupe avec deux examens au même créneau   0.0000 1000.0     0.00
+        H2   dure                 Examen sans assez de places   0.0000 1000.0     0.00
+        H3   dure    Salle utilisée deux fois au même créneau   0.0000 1000.0     0.00
+        H4   dure Surveillant à deux endroits ou indisponible   0.0000 1000.0     0.00
+        H5   dure                        Surveillant manquant  16.0000 1000.0 16000.00
+        S1 souple          Deux examens le même jour (groupe)  21.0000   10.0   210.00
+        S2 souple Examens sur deux jours consécutifs (groupe)  71.0000    3.0   213.00
+        S3 souple                    Gros examens placés tard  10.0000    2.0    20.00
+        S4 souple Déséquilibre des surveillances (écart-type)   1.7381   10.0    17.38
+        S5 souple                           Places gaspillées 409.0000    0.1    40.90
+
+Gloutonne — calendrier :
+                        08:30                 11:00     14:00
+S1-Lun    L1-LSI-01 · 1ING-07  L2-LSI-04 · COM-ANG1  COM-ANG2
+S1-Mar  L1-LSI-04 · L2-LSI-02               1ING-01   1ING-05
+S1-Mer              L1-LSI-02             L2-LSI-05   1ING-04
+S1-Jeu  L1-LSI-05 · L2-LSI-03               1ING-02   1ING-06
+S1-Ven  L1-LSI-03 · L2-LSI-01             L2-LSI-06   1ING-03
+
+====================================================================================================
+medium : 34 examens, 20 groupes, 21 créneaux (7 j × 3 séances), 8 salles (358 places), 20 surveillants
+évaluation d'une solution : 1.66 ms — gloutonne : 11 ms
+
+Gloutonne — contraintes :
+Contrainte   Type                                     Libellé   Valeur  Poids     Coût
+        H1   dure    Groupe avec deux examens au même créneau   0.0000 1000.0     0.00
+        H2   dure                 Examen sans assez de places   0.0000 1000.0     0.00
+        H3   dure    Salle utilisée deux fois au même créneau   0.0000 1000.0     0.00
+        H4   dure Surveillant à deux endroits ou indisponible   0.0000 1000.0     0.00
+        H5   dure                        Surveillant manquant  26.0000 1000.0 26000.00
+        S1 souple          Deux examens le même jour (groupe)   8.0000   10.0    80.00
+        S2 souple Examens sur deux jours consécutifs (groupe) 103.0000    3.0   309.00
+        S3 souple                    Gros examens placés tard  24.0000    2.0    48.00
+        S4 souple Déséquilibre des surveillances (écart-type)   1.8974   10.0    18.97
+        S5 souple                           Places gaspillées 594.0000    0.1    59.40
+
+Gloutonne — calendrier :
+                                    08:30                                 11:00      14:00
+S1-Lun                L1-LSI-04 · 1ING-06                L2-LSI-02 · 2ING-TC-01  L3-LSI-05
+S1-Mar                L2-LSI-06 · 1ING-02               L3-LSI-03 · 2ING-SSI-02  L1-LSI-05
+S1-Mer             L2-LSI-04 · 2ING-TC-02                   L1-LSI-01 · 1ING-07           
+S1-Jeu  L2-LSI-03 · 1ING-03 · 2ING-SSI-03                L3-LSI-04 · 2ING-GL-03   COM-ANG1
+S1-Ven             L1-LSI-02 · 2ING-TC-03                  L3-LSI-01 · COM-ANG2    1ING-05
+S1-Sam   L2-LSI-01 · 1ING-04 · 2ING-GL-02                                                 
+S2-Lun                L1-LSI-03 · 1ING-01  L2-LSI-05 · 2ING-GL-01 · 2ING-SSI-01  L3-LSI-02
+
+====================================================================================================
+large : 48 examens, 27 groupes, 24 créneaux (8 j × 3 séances), 11 salles (558 places), 30 surveillants
+évaluation d'une solution : 2.45 ms — gloutonne : 20 ms
+
+Gloutonne — contraintes :
+Contrainte   Type                                     Libellé    Valeur  Poids  Coût
+        H1   dure    Groupe avec deux examens au même créneau    0.0000 1000.0   0.0
+        H2   dure                 Examen sans assez de places    0.0000 1000.0   0.0
+        H3   dure    Salle utilisée deux fois au même créneau    0.0000 1000.0   0.0
+        H4   dure Surveillant à deux endroits ou indisponible    0.0000 1000.0   0.0
+        H5   dure                        Surveillant manquant    0.0000 1000.0   0.0
+        S1 souple          Deux examens le même jour (groupe)    5.0000   10.0  50.0
+        S2 souple Examens sur deux jours consécutifs (groupe)  127.0000    3.0 381.0
+        S3 souple                    Gros examens placés tard   43.0000    2.0  86.0
+        S4 souple Déséquilibre des surveillances (écart-type)    1.7205   10.0  17.2
+        S5 souple                           Places gaspillées 1108.0000    0.1 110.8
+
+Gloutonne — calendrier :
+                                                                08:30                                           11:00      14:00
+S1-Lun                                          COM-ANG2 · 2ING-TC-01                 L1-LSI-02 · L1-LIG-01 · 1ING-05           
+S1-Mar                   L2-LSI-05 · L2-LIG-04 · 1ING-01 · 2ING-IA-03  L1-LSI-01 · L3-LSI-02 · L1-LIG-05 · 2ING-GL-03           
+S1-Mer                                          COM-ANG1 · 2ING-TC-02                 L2-LSI-04 · L2-LIG-06 · 1ING-03           
+S1-Jeu                   L2-LSI-03 · L2-LIG-02 · 1ING-04 · 2ING-IA-02                                       L3-LSI-03           
+S1-Ven                             L1-LSI-03 · L1-LIG-03 · 2ING-TC-03                                       L2-LSI-06           
+S1-Sam     L2-LSI-02 · L2-LIG-05 · 1ING-06 · 2ING-GL-02 · 2ING-SSI-03                                       L3-LSI-05           
+S2-Lun                                L1-LSI-05 · L2-LIG-01 · 1ING-07             L3-LSI-01 · L1-LIG-02 · 2ING-SSI-01           
+S2-Mar  L2-LSI-01 · L2-LIG-03 · 2ING-GL-01 · 2ING-SSI-02 · 2ING-IA-01                 L1-LSI-04 · L3-LSI-04 · 1ING-02  L1-LIG-04
+
+====================================================================================================
+xlarge : 58 examens, 31 groupes, 24 créneaux (8 j × 3 séances), 12 salles (624 places), 34 surveillants
+évaluation d'une solution : 4.29 ms — gloutonne : 20 ms
+
+Gloutonne — contraintes :
+Contrainte   Type                                     Libellé   Valeur  Poids    Coût
+        H1   dure    Groupe avec deux examens au même créneau    0.000 1000.0    0.00
+        H2   dure                 Examen sans assez de places    0.000 1000.0    0.00
+        H3   dure    Salle utilisée deux fois au même créneau    0.000 1000.0    0.00
+        H4   dure Surveillant à deux endroits ou indisponible    0.000 1000.0    0.00
+        H5   dure                        Surveillant manquant    7.000 1000.0 7000.00
+        S1 souple          Deux examens le même jour (groupe)    8.000   10.0   80.00
+        S2 souple Examens sur deux jours consécutifs (groupe)  132.000    3.0  396.00
+        S3 souple                    Gros examens placés tard   55.000    2.0  110.00
+        S4 souple Déséquilibre des surveillances (écart-type)    1.747   10.0   17.47
+        S5 souple                           Places gaspillées 1266.000    0.1  126.60
+
+Gloutonne — calendrier :
+                                                             08:30                                                        11:00      14:00
+S1-Lun                              1ING-02 · M1-SSI-01 · COM-ANG1  L2-LSI-02 · L2-LIG-01 · L3-LIG-04 · 2ING-GL-02 · 2ING-IA-03  L3-LSI-01
+S1-Mar  L2-LSI-05 · L2-LIG-05 · 1ING-05 · 2ING-SSI-02 · 2ING-IA-01                            L1-LSI-02 · L3-LSI-05 · L1-LIG-05           
+S1-Mer                           L3-LIG-01 · COM-ANG2 · 2ING-TC-01                              L1-LIG-02 · 1ING-03 · M1-SSI-02           
+S1-Jeu                 L1-LSI-01 · L2-LIG-06 · L3-LIG-05 · 1ING-01                          L2-LSI-06 · L3-LSI-03 · 2ING-SSI-03           
+S1-Ven                L2-LSI-04 · L1-LIG-04 · 1ING-04 · 2ING-TC-02                            L1-LSI-03 · L2-LIG-02 · M1-SSI-03           
+S1-Sam   L2-LSI-03 · L3-LIG-03 · 1ING-06 · 2ING-GL-03 · 2ING-IA-02                                                    L1-LIG-03           
+S2-Lun              L1-LSI-04 · L2-LIG-03 · M1-SSI-04 · 2ING-TC-03                                                    L3-LSI-02           
+S2-Mar  L2-LSI-01 · L1-LIG-01 · 1ING-07 · 2ING-GL-01 · 2ING-SSI-01                L1-LSI-05 · L3-LSI-04 · L2-LIG-04 · L3-LIG-02  M1-SSI-05
+
+====================================================================================================
+Récapitulatif des méthodes de référence :
+Instance             Méthode    Coût  Violations dures   H1  H2   H5   S1     S2    S3   S4      S5
+   small aléatoire (moy. 30) 34250.3              33.7 14.7 3.5 15.5 29.5  72.53 12.00 1.44  325.70
+   small           gloutonne 16501.3              16.0  0.0 0.0 16.0 21.0  71.00 10.00 1.74  409.00
+  medium aléatoire (moy. 30) 46477.2              45.7 20.3 2.7 22.8 34.0  99.23 30.77 1.87  592.47
+  medium           gloutonne 26515.4              26.0  0.0 0.0 26.0  8.0 103.00 24.00 1.90  594.00
+   large aléatoire (moy. 30) 29104.1              28.0 24.1 0.7  3.2 47.2 122.00 58.20 1.40 1357.07
+   large           gloutonne   645.0               0.0  0.0 0.0  0.0  5.0 127.00 43.00 1.72 1108.00
+  xlarge aléatoire (moy. 30) 35029.9              33.8 26.8 0.8  6.2 50.0 135.47 55.63 1.74 1615.73
+  xlarge           gloutonne  7730.1               7.0  0.0 0.0  7.0  8.0 132.00 55.00 1.75 1266.00

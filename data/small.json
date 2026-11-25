@@ -1,0 +1,488 @@
+{
+ "name": "small",
+ "days": [
+  "S1-Lun",
+  "S1-Mar",
+  "S1-Mer",
+  "S1-Jeu",
+  "S1-Ven"
+ ],
+ "periods": [
+  "08:30",
+  "11:00",
+  "14:00"
+ ],
+ "rooms": [
+  {
+   "id": 0,
+   "name": "Amphi A",
+   "capacity": 120,
+   "kind": "amphi"
+  },
+  {
+   "id": 1,
+   "name": "Salle 101",
+   "capacity": 32,
+   "kind": "salle"
+  },
+  {
+   "id": 2,
+   "name": "Salle 102",
+   "capacity": 30,
+   "kind": "salle"
+  },
+  {
+   "id": 3,
+   "name": "Salle 103",
+   "capacity": 32,
+   "kind": "salle"
+  },
+  {
+   "id": 4,
+   "name": "Salle 104",
+   "capacity": 40,
+   "kind": "salle"
+  }
+ ],
+ "groups": [
+  {
+   "id": 0,
+   "name": "L1-LSI-G1",
+   "size": 27
+  },
+  {
+   "id": 1,
+   "name": "L1-LSI-G2",
+   "size": 26
+  },
+  {
+   "id": 2,
+   "name": "L1-LSI-G3",
+   "size": 30
+  },
+  {
+   "id": 3,
+   "name": "L1-LSI-G4",
+   "size": 29
+  },
+  {
+   "id": 4,
+   "name": "L2-LSI-G1",
+   "size": 29
+  },
+  {
+   "id": 5,
+   "name": "L2-LSI-G2",
+   "size": 28
+  },
+  {
+   "id": 6,
+   "name": "L2-LSI-G3",
+   "size": 27
+  },
+  {
+   "id": 7,
+   "name": "L2-LSI-Dette",
+   "size": 12
+  },
+  {
+   "id": 8,
+   "name": "1ING-G1",
+   "size": 27
+  },
+  {
+   "id": 9,
+   "name": "1ING-G2",
+   "size": 32
+  },
+  {
+   "id": 10,
+   "name": "1ING-G3",
+   "size": 26
+  }
+ ],
+ "exams": [
+  {
+   "id": 0,
+   "code": "L1-LSI-01",
+   "name": "Algorithmique 1",
+   "groups": [
+    0,
+    1,
+    2,
+    3,
+    7
+   ],
+   "enrolled": 124
+  },
+  {
+   "id": 1,
+   "code": "L1-LSI-02",
+   "name": "Analyse 1",
+   "groups": [
+    0,
+    1,
+    2,
+    3,
+    7
+   ],
+   "enrolled": 124
+  },
+  {
+   "id": 2,
+   "code": "L1-LSI-03",
+   "name": "Algèbre 1",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "enrolled": 112
+  },
+  {
+   "id": 3,
+   "code": "L1-LSI-04",
+   "name": "Architecture des ordinateurs",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "enrolled": 112
+  },
+  {
+   "id": 4,
+   "code": "L1-LSI-05",
+   "name": "Logique formelle",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "enrolled": 112
+  },
+  {
+   "id": 5,
+   "code": "L2-LSI-01",
+   "name": "Structures de données",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  },
+  {
+   "id": 6,
+   "code": "L2-LSI-02",
+   "name": "Systèmes d'exploitation",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  },
+  {
+   "id": 7,
+   "code": "L2-LSI-03",
+   "name": "Bases de données",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  },
+  {
+   "id": 8,
+   "code": "L2-LSI-04",
+   "name": "Probabilités",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  },
+  {
+   "id": 9,
+   "code": "L2-LSI-05",
+   "name": "Programmation orientée objet",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  },
+  {
+   "id": 10,
+   "code": "L2-LSI-06",
+   "name": "Réseaux 1",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  },
+  {
+   "id": 11,
+   "code": "1ING-01",
+   "name": "Analyse numérique",
+   "groups": [
+    8,
+    9,
+    10
+   ],
+   "enrolled": 85
+  },
+  {
+   "id": 12,
+   "code": "1ING-02",
+   "name": "Théorie des graphes",
+   "groups": [
+    8,
+    9,
+    10
+   ],
+   "enrolled": 85
+  },
+  {
+   "id": 13,
+   "code": "1ING-03",
+   "name": "Bases de données avancées",
+   "groups": [
+    8,
+    9,
+    10
+   ],
+   "enrolled": 85
+  },
+  {
+   "id": 14,
+   "code": "1ING-04",
+   "name": "Programmation système",
+   "groups": [
+    8,
+    9,
+    10
+   ],
+   "enrolled": 85
+  },
+  {
+   "id": 15,
+   "code": "1ING-05",
+   "name": "Réseaux avancés",
+   "groups": [
+    8,
+    9,
+    10
+   ],
+   "enrolled": 85
+  },
+  {
+   "id": 16,
+   "code": "1ING-06",
+   "name": "Techniques de calcul intelligent",
+   "groups": [
+    8,
+    9,
+    10
+   ],
+   "enrolled": 85
+  },
+  {
+   "id": 17,
+   "code": "1ING-07",
+   "name": "Management de projet",
+   "groups": [
+    8,
+    9,
+    10
+   ],
+   "enrolled": 85
+  },
+  {
+   "id": 18,
+   "code": "COM-ANG1",
+   "name": "Anglais 1",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "enrolled": 112
+  },
+  {
+   "id": 19,
+   "code": "COM-ANG2",
+   "name": "Anglais 2",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  }
+ ],
+ "invigilators": [
+  {
+   "id": 0,
+   "name": "Nabil Ferchichi (vacataire)",
+   "max_duties": 5,
+   "unavailable": [
+    3,
+    4,
+    5,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "id": 1,
+   "name": "Tarek Jlassi",
+   "max_duties": 5,
+   "unavailable": [
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Chokri Jlassi (vacataire)",
+   "max_duties": 3,
+   "unavailable": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Anis Toumi",
+   "max_duties": 5,
+   "unavailable": [
+    3,
+    4,
+    12
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Amel Ayari",
+   "max_duties": 6,
+   "unavailable": []
+  },
+  {
+   "id": 5,
+   "name": "Sonia Rekik",
+   "max_duties": 8,
+   "unavailable": []
+  },
+  {
+   "id": 6,
+   "name": "Ridha Masmoudi (vacataire)",
+   "max_duties": 3,
+   "unavailable": [
+    0,
+    1,
+    2,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Yosra Ben Salah",
+   "max_duties": 5,
+   "unavailable": [
+    2,
+    8,
+    10
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Salma Mejri",
+   "max_duties": 6,
+   "unavailable": [
+    4,
+    6
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Sonia Belhaj",
+   "max_duties": 9,
+   "unavailable": []
+  },
+  {
+   "id": 10,
+   "name": "Nabil Haddad (vacataire)",
+   "max_duties": 4,
+   "unavailable": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Salma Chaabane",
+   "max_duties": 5,
+   "unavailable": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Ines Chaabane",
+   "max_duties": 9,
+   "unavailable": []
+  },
+  {
+   "id": 13,
+   "name": "Mehdi Guesmi",
+   "max_duties": 7,
+   "unavailable": []
+  },
+  {
+   "id": 14,
+   "name": "Olfa Mansouri (vacataire)",
+   "max_duties": 4,
+   "unavailable": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ]
+  }
+ ],
+ "large_exam_threshold": 100
+}

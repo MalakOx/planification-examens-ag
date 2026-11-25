@@ -1,0 +1,23 @@
+# Rapport et documents internes (non versionnés)
+rapport/
+PLAN_PROJET.md
+consignes_projet_techniques_calcul_intelligent.md
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Éditeurs / OS
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Fichiers temporaires Office
+~$*

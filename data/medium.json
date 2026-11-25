@@ -1,0 +1,924 @@
+{
+ "name": "medium",
+ "days": [
+  "S1-Lun",
+  "S1-Mar",
+  "S1-Mer",
+  "S1-Jeu",
+  "S1-Ven",
+  "S1-Sam",
+  "S2-Lun"
+ ],
+ "periods": [
+  "08:30",
+  "11:00",
+  "14:00"
+ ],
+ "rooms": [
+  {
+   "id": 0,
+   "name": "Amphi A",
+   "capacity": 120,
+   "kind": "amphi"
+  },
+  {
+   "id": 1,
+   "name": "Salle 101",
+   "capacity": 30,
+   "kind": "salle"
+  },
+  {
+   "id": 2,
+   "name": "Salle 102",
+   "capacity": 36,
+   "kind": "salle"
+  },
+  {
+   "id": 3,
+   "name": "Salle 103",
+   "capacity": 36,
+   "kind": "salle"
+  },
+  {
+   "id": 4,
+   "name": "Salle 104",
+   "capacity": 36,
+   "kind": "salle"
+  },
+  {
+   "id": 5,
+   "name": "Salle 105",
+   "capacity": 30,
+   "kind": "salle"
+  },
+  {
+   "id": 6,
+   "name": "Salle 106",
+   "capacity": 40,
+   "kind": "salle"
+  },
+  {
+   "id": 7,
+   "name": "Salle 107",
+   "capacity": 30,
+   "kind": "salle"
+  }
+ ],
+ "groups": [
+  {
+   "id": 0,
+   "name": "L1-LSI-G1",
+   "size": 27
+  },
+  {
+   "id": 1,
+   "name": "L1-LSI-G2",
+   "size": 26
+  },
+  {
+   "id": 2,
+   "name": "L1-LSI-G3",
+   "size": 30
+  },
+  {
+   "id": 3,
+   "name": "L1-LSI-G4",
+   "size": 29
+  },
+  {
+   "id": 4,
+   "name": "L2-LSI-G1",
+   "size": 29
+  },
+  {
+   "id": 5,
+   "name": "L2-LSI-G2",
+   "size": 28
+  },
+  {
+   "id": 6,
+   "name": "L2-LSI-G3",
+   "size": 27
+  },
+  {
+   "id": 7,
+   "name": "L2-LSI-Dette",
+   "size": 12
+  },
+  {
+   "id": 8,
+   "name": "L3-LSI-G1",
+   "size": 27
+  },
+  {
+   "id": 9,
+   "name": "L3-LSI-G2",
+   "size": 32
+  },
+  {
+   "id": 10,
+   "name": "L3-LSI-G3",
+   "size": 26
+  },
+  {
+   "id": 11,
+   "name": "L3-LSI-Dette",
+   "size": 4
+  },
+  {
+   "id": 12,
+   "name": "1ING-G1",
+   "size": 27
+  },
+  {
+   "id": 13,
+   "name": "1ING-G2",
+   "size": 29
+  },
+  {
+   "id": 14,
+   "name": "1ING-G3",
+   "size": 29
+  },
+  {
+   "id": 15,
+   "name": "2ING-GL-G1",
+   "size": 34
+  },
+  {
+   "id": 16,
+   "name": "2ING-GL-G2",
+   "size": 26
+  },
+  {
+   "id": 17,
+   "name": "2ING-GL-Dette",
+   "size": 12
+  },
+  {
+   "id": 18,
+   "name": "2ING-SSI-G1",
+   "size": 29
+  },
+  {
+   "id": 19,
+   "name": "2ING-SSI-Dette",
+   "size": 12
+  }
+ ],
+ "exams": [
+  {
+   "id": 0,
+   "code": "L1-LSI-01",
+   "name": "Algorithmique 1",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "enrolled": 112
+  },
+  {
+   "id": 1,
+   "code": "L1-LSI-02",
+   "name": "Analyse 1",
+   "groups": [
+    0,
+    1,
+    2,
+    3,
+    7
+   ],
+   "enrolled": 124
+  },
+  {
+   "id": 2,
+   "code": "L1-LSI-03",
+   "name": "Algèbre 1",
+   "groups": [
+    0,
+    1,
+    2,
+    3,
+    7
+   ],
+   "enrolled": 124
+  },
+  {
+   "id": 3,
+   "code": "L1-LSI-04",
+   "name": "Architecture des ordinateurs",
+   "groups": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    11
+   ],
+   "enrolled": 128
+  },
+  {
+   "id": 4,
+   "code": "L1-LSI-05",
+   "name": "Logique formelle",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "enrolled": 112
+  },
+  {
+   "id": 5,
+   "code": "L2-LSI-01",
+   "name": "Structures de données",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  },
+  {
+   "id": 6,
+   "code": "L2-LSI-02",
+   "name": "Systèmes d'exploitation",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  },
+  {
+   "id": 7,
+   "code": "L2-LSI-03",
+   "name": "Bases de données",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  },
+  {
+   "id": 8,
+   "code": "L2-LSI-04",
+   "name": "Probabilités",
+   "groups": [
+    4,
+    5,
+    6,
+    7,
+    11
+   ],
+   "enrolled": 100
+  },
+  {
+   "id": 9,
+   "code": "L2-LSI-05",
+   "name": "Programmation orientée objet",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  },
+  {
+   "id": 10,
+   "code": "L2-LSI-06",
+   "name": "Réseaux 1",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  },
+  {
+   "id": 11,
+   "code": "L3-LSI-01",
+   "name": "Génie logiciel",
+   "groups": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "enrolled": 89
+  },
+  {
+   "id": 12,
+   "code": "L3-LSI-02",
+   "name": "Compilation",
+   "groups": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "enrolled": 89
+  },
+  {
+   "id": 13,
+   "code": "L3-LSI-03",
+   "name": "Développement web",
+   "groups": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "enrolled": 89
+  },
+  {
+   "id": 14,
+   "code": "L3-LSI-04",
+   "name": "Recherche opérationnelle",
+   "groups": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "enrolled": 89
+  },
+  {
+   "id": 15,
+   "code": "L3-LSI-05",
+   "name": "Sécurité informatique",
+   "groups": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "enrolled": 89
+  },
+  {
+   "id": 16,
+   "code": "1ING-01",
+   "name": "Analyse numérique",
+   "groups": [
+    12,
+    13,
+    14,
+    19
+   ],
+   "enrolled": 97
+  },
+  {
+   "id": 17,
+   "code": "1ING-02",
+   "name": "Théorie des graphes",
+   "groups": [
+    12,
+    13,
+    14,
+    17
+   ],
+   "enrolled": 97
+  },
+  {
+   "id": 18,
+   "code": "1ING-03",
+   "name": "Bases de données avancées",
+   "groups": [
+    12,
+    13,
+    14,
+    17
+   ],
+   "enrolled": 97
+  },
+  {
+   "id": 19,
+   "code": "1ING-04",
+   "name": "Programmation système",
+   "groups": [
+    12,
+    13,
+    14,
+    19
+   ],
+   "enrolled": 97
+  },
+  {
+   "id": 20,
+   "code": "1ING-05",
+   "name": "Réseaux avancés",
+   "groups": [
+    12,
+    13,
+    14
+   ],
+   "enrolled": 85
+  },
+  {
+   "id": 21,
+   "code": "1ING-06",
+   "name": "Techniques de calcul intelligent",
+   "groups": [
+    12,
+    13,
+    14,
+    17
+   ],
+   "enrolled": 97
+  },
+  {
+   "id": 22,
+   "code": "1ING-07",
+   "name": "Management de projet",
+   "groups": [
+    12,
+    13,
+    14,
+    19
+   ],
+   "enrolled": 97
+  },
+  {
+   "id": 23,
+   "code": "2ING-GL-01",
+   "name": "Architecture logicielle",
+   "groups": [
+    15,
+    16,
+    17
+   ],
+   "enrolled": 72
+  },
+  {
+   "id": 24,
+   "code": "2ING-GL-02",
+   "name": "Tests et qualité",
+   "groups": [
+    15,
+    16,
+    17
+   ],
+   "enrolled": 72
+  },
+  {
+   "id": 25,
+   "code": "2ING-GL-03",
+   "name": "DevOps",
+   "groups": [
+    15,
+    16,
+    17
+   ],
+   "enrolled": 72
+  },
+  {
+   "id": 26,
+   "code": "2ING-SSI-01",
+   "name": "Cryptographie",
+   "groups": [
+    18,
+    19
+   ],
+   "enrolled": 41
+  },
+  {
+   "id": 27,
+   "code": "2ING-SSI-02",
+   "name": "Sécurité des réseaux",
+   "groups": [
+    18,
+    19
+   ],
+   "enrolled": 41
+  },
+  {
+   "id": 28,
+   "code": "2ING-SSI-03",
+   "name": "Audit de sécurité",
+   "groups": [
+    18,
+    19
+   ],
+   "enrolled": 41
+  },
+  {
+   "id": 29,
+   "code": "COM-ANG1",
+   "name": "Anglais 1",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "enrolled": 112
+  },
+  {
+   "id": 30,
+   "code": "COM-ANG2",
+   "name": "Anglais 2",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "enrolled": 96
+  },
+  {
+   "id": 31,
+   "code": "2ING-TC-01",
+   "name": "Big Data",
+   "groups": [
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "enrolled": 113
+  },
+  {
+   "id": 32,
+   "code": "2ING-TC-02",
+   "name": "Cloud computing",
+   "groups": [
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "enrolled": 113
+  },
+  {
+   "id": 33,
+   "code": "2ING-TC-03",
+   "name": "Entrepreneuriat",
+   "groups": [
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "enrolled": 113
+  }
+ ],
+ "invigilators": [
+  {
+   "id": 0,
+   "name": "Olfa Jlassi",
+   "max_duties": 5,
+   "unavailable": [
+    5,
+    17,
+    20
+   ]
+  },
+  {
+   "id": 1,
+   "name": "Mehdi Chaabane",
+   "max_duties": 6,
+   "unavailable": [
+    8,
+    12
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Imed Sassi",
+   "max_duties": 9,
+   "unavailable": []
+  },
+  {
+   "id": 3,
+   "name": "Nour Mejri (vacataire)",
+   "max_duties": 3,
+   "unavailable": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Emna Rekik",
+   "max_duties": 8,
+   "unavailable": []
+  },
+  {
+   "id": 5,
+   "name": "Emna Ferchichi (vacataire)",
+   "max_duties": 4,
+   "unavailable": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    18,
+    19,
+    20
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Fares Hammami (vacataire)",
+   "max_duties": 3,
+   "unavailable": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Rania Belhaj (vacataire)",
+   "max_duties": 5,
+   "unavailable": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    18,
+    19,
+    20
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Hela Haddad (vacataire)",
+   "max_duties": 3,
+   "unavailable": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Leila Nasri",
+   "max_duties": 6,
+   "unavailable": []
+  },
+  {
+   "id": 10,
+   "name": "Sami Guesmi",
+   "max_duties": 5,
+   "unavailable": [
+    3
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Sarra Mansouri (vacataire)",
+   "max_duties": 4,
+   "unavailable": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Nabil Karoui",
+   "max_duties": 8,
+   "unavailable": [
+    14,
+    19
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Nour Chaabane",
+   "max_duties": 9,
+   "unavailable": [
+    3
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Mehdi Ferchichi",
+   "max_duties": 9,
+   "unavailable": [
+    10,
+    20
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Nabil Guesmi (vacataire)",
+   "max_duties": 5,
+   "unavailable": [
+    6,
+    7,
+    8,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Ines Bouazizi",
+   "max_duties": 7,
+   "unavailable": []
+  },
+  {
+   "id": 17,
+   "name": "Olfa Mansouri",
+   "max_duties": 6,
+   "unavailable": []
+  },
+  {
+   "id": 18,
+   "name": "Anis Toumi",
+   "max_duties": 5,
+   "unavailable": [
+    6,
+    9,
+    16
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Tarek Chaabane (vacataire)",
+   "max_duties": 3,
+   "unavailable": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Lotfi Gharbi",
+   "max_duties": 8,
+   "unavailable": [
+    3
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Fares Sassi",
+   "max_duties": 7,
+   "unavailable": []
+  },
+  {
+   "id": 22,
+   "name": "Sonia Guesmi (vacataire)",
+   "max_duties": 3,
+   "unavailable": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  },
+  {
+   "id": 23,
+   "name": "Fares Rekik",
+   "max_duties": 5,
+   "unavailable": [
+    4,
+    15,
+    20
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Fares Jlassi",
+   "max_duties": 6,
+   "unavailable": []
+  },
+  {
+   "id": 25,
+   "name": "Hela Guesmi (vacataire)",
+   "max_duties": 5,
+   "unavailable": [
+    0,
+    1,
+    2,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Sarra Zouari",
+   "max_duties": 7,
+   "unavailable": [
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Anis Ferchichi",
+   "max_duties": 8,
+   "unavailable": []
+  }
+ ],
+ "large_exam_threshold": 100
+}

@@ -1,0 +1,21 @@
+﻿Créneau,Jour,Séance,Code,Examen,Groupes,Inscrits,Salles,Places,Surveillants,Sans place,Surv. manquants
+0,S1-Lun,08:30,L1-LSI-01,Algorithmique 1,"L1-LSI-G1, L1-LSI-G2, L1-LSI-G3, L1-LSI-G4, L2-LSI-Dette",124,"Amphi A, Salle 102",150,"Nabil Ferchichi (vacataire), Tarek Jlassi, Anis Toumi, Amel Ayari, Sonia Rekik",0,0
+1,S1-Lun,11:00,1ING-07,Management de projet,"1ING-G1, 1ING-G2, 1ING-G3",85,"Salle 104, Salle 103, Salle 102",102,"Nabil Haddad (vacataire), Salma Chaabane, Ines Chaabane, Mehdi Guesmi, Olfa Mansouri (vacataire), Nabil Ferchichi (vacataire)",0,0
+1,S1-Lun,11:00,L2-LSI-04,Probabilités,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette",96,Amphi A,120,"Yosra Ben Salah, Salma Mejri, Sonia Belhaj",0,0
+2,S1-Lun,14:00,COM-ANG2,Anglais 2,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette",96,Amphi A,120,"Tarek Jlassi, Anis Toumi, Amel Ayari",0,0
+3,S1-Mar,08:30,COM-ANG1,Anglais 1,"L1-LSI-G1, L1-LSI-G2, L1-LSI-G3, L1-LSI-G4",112,Amphi A,120,"Ridha Masmoudi (vacataire), Sonia Rekik, Yosra Ben Salah",0,0
+3,S1-Mar,08:30,L2-LSI-02,Systèmes d'exploitation,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette",96,"Salle 104, Salle 103, Salle 102",102,"Salma Mejri, Sonia Belhaj, Nabil Haddad (vacataire), Ines Chaabane, Mehdi Guesmi, Tarek Jlassi",0,0
+4,S1-Mar,11:00,1ING-01,Analyse numérique,"1ING-G1, 1ING-G2, 1ING-G3",85,Amphi A,120,"Ridha Masmoudi (vacataire), Amel Ayari, Sonia Rekik",0,0
+5,S1-Mar,14:00,1ING-05,Réseaux avancés,"1ING-G1, 1ING-G2, 1ING-G3",85,Amphi A,120,"Anis Toumi, Ridha Masmoudi (vacataire), Yosra Ben Salah",0,0
+6,S1-Mer,08:30,L1-LSI-02,Analyse 1,"L1-LSI-G1, L1-LSI-G2, L1-LSI-G3, L1-LSI-G4, L2-LSI-Dette",124,"Amphi A, Salle 102",150,"Chokri Jlassi (vacataire), Salma Chaabane, Nabil Ferchichi (vacataire), Sonia Belhaj, Ines Chaabane",0,0
+7,S1-Mer,11:00,L2-LSI-05,Programmation orientée objet,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette",96,Amphi A,120,"Chokri Jlassi (vacataire), Salma Mejri, Salma Chaabane",0,0
+8,S1-Mer,14:00,1ING-04,Programmation système,"1ING-G1, 1ING-G2, 1ING-G3",85,Amphi A,120,"Chokri Jlassi (vacataire), Mehdi Guesmi, Nabil Ferchichi (vacataire)",0,0
+9,S1-Jeu,08:30,L2-LSI-03,Bases de données,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette",96,Amphi A,120,"Olfa Mansouri (vacataire), Anis Toumi, Amel Ayari",0,0
+10,S1-Jeu,11:00,1ING-02,Théorie des graphes,"1ING-G1, 1ING-G2, 1ING-G3",85,Amphi A,120,"Olfa Mansouri (vacataire), Sonia Rekik, Salma Mejri",0,0
+11,S1-Jeu,14:00,1ING-06,Techniques de calcul intelligent,"1ING-G1, 1ING-G2, 1ING-G3",85,Amphi A,120,"Yosra Ben Salah, Sonia Belhaj, Salma Chaabane",0,0
+12,S1-Ven,08:30,L1-LSI-03,Algèbre 1,"L1-LSI-G1, L1-LSI-G2, L1-LSI-G3, L1-LSI-G4",112,Amphi A,120,"Nabil Haddad (vacataire), Tarek Jlassi, Ines Chaabane",0,0
+12,S1-Ven,08:30,L2-LSI-01,Structures de données,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette",96,"Salle 104, Salle 103, Salle 102",102,"Mehdi Guesmi, Olfa Mansouri (vacataire), Nabil Ferchichi (vacataire), Amel Ayari, Sonia Rekik, Yosra Ben Salah",0,0
+13,S1-Ven,11:00,L1-LSI-04,Architecture des ordinateurs,"L1-LSI-G1, L1-LSI-G2, L1-LSI-G3, L1-LSI-G4",112,Amphi A,120,"Nabil Haddad (vacataire), Tarek Jlassi, Anis Toumi",0,0
+13,S1-Ven,11:00,L2-LSI-06,Réseaux 1,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette",96,"Salle 104, Salle 103, Salle 102",102,"Salma Mejri, Sonia Belhaj, Salma Chaabane, Ines Chaabane, Mehdi Guesmi, Amel Ayari",0,0
+14,S1-Ven,14:00,1ING-03,Bases de données avancées,"1ING-G1, 1ING-G2, 1ING-G3",85,"Salle 104, Salle 103, Salle 102",102,"Ines Chaabane, Mehdi Guesmi",0,4
+14,S1-Ven,14:00,L1-LSI-05,Logique formelle,"L1-LSI-G1, L1-LSI-G2, L1-LSI-G3, L1-LSI-G4",112,Amphi A,120,"Sonia Rekik, Salma Mejri, Sonia Belhaj",0,0

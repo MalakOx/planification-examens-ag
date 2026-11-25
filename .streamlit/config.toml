@@ -1,0 +1,10 @@
+[theme]
+# Seule la couleur principale est fixée : Streamlit garde ses modes clair et sombre.
+primaryColor = "#2a78d6"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

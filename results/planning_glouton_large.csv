@@ -1,0 +1,49 @@
+﻿Créneau,Jour,Séance,Code,Examen,Groupes,Inscrits,Salles,Places,Surveillants,Sans place,Surv. manquants
+0,S1-Lun,08:30,2ING-TC-01,Big Data,"2ING-GL-G1, 2ING-GL-G2, 2ING-GL-Dette, 2ING-SSI-G1, 2ING-SSI-Dette, 2ING-IA-G1, 2ING-IA-Dette",144,"Amphi B, Salle 104",150,"Ridha Jlassi, Lotfi Belhaj, Mehdi Trabelsi, Chokri Nasri, Walid Bouazizi",0,0
+0,S1-Lun,08:30,COM-ANG2,Anglais 2,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette, L2-LIG-G1, L2-LIG-G2, L2-LIG-Dette, L3-LSI-Dette",167,"Amphi A, Salle 103",180,"Tarek Chaabane, Fares Sassi, Sonia Guesmi, Hela Guesmi, Anis Ferchichi",0,0
+1,S1-Lun,11:00,1ING-05,Réseaux avancés,"1ING-G1, 1ING-G2, 1ING-G3, 2ING-IA-Dette",107,Amphi B,120,"Tarek Karoui (vacataire), Olfa Haddad, Lotfi Bouazizi",0,0
+1,S1-Lun,11:00,L1-LIG-01,Programmation C,"L1-LIG-G1, L1-LIG-G2",56,"Salle 106, Salle 103",66,"Ridha Chaabane, Imed Masmoudi, Ridha Mansouri, Hichem Toumi",0,0
+1,S1-Lun,11:00,L1-LSI-02,Analyse 1,"L1-LSI-G1, L1-LSI-G2, L1-LSI-G3, L1-LSI-G4, L2-LSI-Dette",124,Amphi A,150,"Asma Masmoudi, Rim Hammami, Sonia Nasri",0,0
+3,S1-Mar,08:30,1ING-01,Analyse numérique,"1ING-G1, 1ING-G2, 1ING-G3, 2ING-GL-Dette, 2ING-SSI-Dette",112,Amphi B,120,"Fares Rekik (vacataire), Fares Jlassi (vacataire), Sarra Zouari (vacataire)",0,0
+3,S1-Mar,08:30,2ING-IA-03,Traitement du langage,"2ING-IA-G1, 2ING-IA-Dette",38,"Salle 101, Salle 103",66,"Anis Ferchichi, Ridha Jlassi, Lotfi Belhaj, Mehdi Trabelsi",0,0
+3,S1-Mar,08:30,L2-LIG-04,Réseaux locaux,"L2-LIG-G1, L2-LIG-G2, L2-LIG-Dette",67,"Salle 106, Salle 102",68,"Tarek Chaabane, Fares Sassi, Sonia Guesmi, Hela Guesmi",0,0
+3,S1-Mar,08:30,L2-LSI-05,Programmation orientée objet,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette",96,Amphi A,150,"Ridha Guesmi, Nabil Chaabane (vacataire), Leila Ferchichi",0,0
+4,S1-Mar,11:00,2ING-GL-03,DevOps,"2ING-GL-G1, 2ING-GL-G2, 2ING-GL-Dette",72,"Salle 106, Salle 101",72,"Asma Masmoudi, Sonia Nasri, Tarek Karoui (vacataire), Olfa Haddad",0,0
+4,S1-Mar,11:00,L1-LIG-05,Techniques de communication,"L1-LIG-G1, L1-LIG-G2",56,"Salle 108, Salle 103",62,"Lotfi Bouazizi, Ridha Chaabane, Imed Masmoudi, Nabil Chaabane (vacataire)",0,0
+4,S1-Mar,11:00,L1-LSI-01,Algorithmique 1,"L1-LSI-G1, L1-LSI-G2, L1-LSI-G3, L1-LSI-G4",112,Amphi B,120,"Fares Rekik (vacataire), Fares Jlassi (vacataire), Sarra Zouari (vacataire)",0,0
+4,S1-Mar,11:00,L3-LSI-02,Compilation,"L3-LSI-G1, L3-LSI-G2, L3-LSI-G3, L3-LSI-Dette",89,Amphi A,150,"Ridha Guesmi, Chokri Nasri, Walid Bouazizi",0,0
+6,S1-Mer,08:30,2ING-TC-02,Cloud computing,"2ING-GL-G1, 2ING-GL-G2, 2ING-GL-Dette, 2ING-SSI-G1, 2ING-SSI-Dette, 2ING-IA-G1, 2ING-IA-Dette",144,"Amphi B, Salle 104",150,"Tarek Chaabane, Fares Sassi, Sonia Guesmi, Hela Guesmi, Anis Ferchichi",0,0
+6,S1-Mer,08:30,COM-ANG1,Anglais 1,"L1-LSI-G1, L1-LSI-G2, L1-LSI-G3, L1-LSI-G4, L1-LIG-G1, L1-LIG-G2, L2-LIG-Dette",172,"Amphi A, Salle 103",180,"Anis Mejri (vacataire), Rim Hammami, Ridha Mansouri, Hichem Toumi, Leila Ferchichi",0,0
+7,S1-Mer,11:00,1ING-03,Bases de données avancées,"1ING-G1, 1ING-G2, 1ING-G3",97,Amphi A,150,"Lotfi Belhaj, Mehdi Trabelsi, Chokri Nasri",0,0
+7,S1-Mer,11:00,L2-LIG-06,Droit informatique,"L2-LIG-G1, L2-LIG-G2, L2-LIG-Dette",67,"Salle 106, Salle 102",68,"Walid Bouazizi, Asma Masmoudi, Rim Hammami, Sonia Nasri",0,0
+7,S1-Mer,11:00,L2-LSI-04,Probabilités,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette, L3-LSI-Dette",100,Amphi B,120,"Anis Mejri (vacataire), Ridha Guesmi, Ridha Jlassi",0,0
+9,S1-Jeu,08:30,1ING-04,Programmation système,"1ING-G1, 1ING-G2, 1ING-G3, 2ING-GL-Dette, 2ING-SSI-Dette",112,Amphi B,120,"Olfa Mansouri (vacataire), Anis Toumi (vacataire), Lotfi Gharbi (vacataire)",0,0
+9,S1-Jeu,08:30,2ING-IA-02,Vision par ordinateur,"2ING-IA-G1, 2ING-IA-Dette",38,"Salle 101, Salle 103",66,"Tarek Chaabane, Fares Sassi, Sonia Guesmi, Hela Guesmi",0,0
+9,S1-Jeu,08:30,L2-LIG-02,Conception des SI,"L2-LIG-G1, L2-LIG-G2, L2-LIG-Dette",67,"Salle 106, Salle 102",68,"Imed Masmoudi, Ridha Mansouri, Hichem Toumi, Leila Ferchichi",0,0
+9,S1-Jeu,08:30,L2-LSI-03,Bases de données,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette",96,Amphi A,150,"Fares Jlassi (vacataire), Olfa Haddad, Ridha Chaabane",0,0
+10,S1-Jeu,11:00,L3-LSI-03,Développement web,"L3-LSI-G1, L3-LSI-G2, L3-LSI-G3, L3-LSI-Dette",89,Amphi B,120,"Olfa Mansouri (vacataire), Anis Toumi (vacataire), Lotfi Gharbi (vacataire)",0,0
+12,S1-Ven,08:30,2ING-TC-03,Entrepreneuriat,"2ING-GL-G1, 2ING-GL-G2, 2ING-GL-Dette, 2ING-SSI-G1, 2ING-SSI-Dette, 2ING-IA-G1, 2ING-IA-Dette",144,Amphi A,150,"Anis Mejri (vacataire), Lotfi Bouazizi, Anis Ferchichi",0,0
+12,S1-Ven,08:30,L1-LIG-03,Électronique numérique,"L1-LIG-G1, L1-LIG-G2, L2-LIG-Dette",60,"Salle 106, Salle 104",66,"Walid Bouazizi, Asma Masmoudi, Rim Hammami, Sonia Nasri",0,0
+12,S1-Ven,08:30,L1-LSI-03,Algèbre 1,"L1-LSI-G1, L1-LSI-G2, L1-LSI-G3, L1-LSI-G4, L2-LSI-Dette, L3-LSI-Dette",128,"Amphi B, Salle 103",150,"Ridha Guesmi, Ridha Jlassi, Lotfi Belhaj, Mehdi Trabelsi, Chokri Nasri",0,0
+13,S1-Ven,11:00,L2-LSI-06,Réseaux 1,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette",96,Amphi B,120,"Olfa Haddad, Anis Mejri (vacataire), Lotfi Bouazizi",0,0
+15,S1-Sam,08:30,1ING-06,Techniques de calcul intelligent,"1ING-G1, 1ING-G2, 1ING-G3, 2ING-IA-Dette",107,Amphi B,120,"Olfa Mansouri (vacataire), Anis Toumi (vacataire), Lotfi Gharbi (vacataire)",0,0
+15,S1-Sam,08:30,2ING-GL-02,Tests et qualité,"2ING-GL-G1, 2ING-GL-G2, 2ING-GL-Dette",72,"Salle 106, Salle 101",72,"Ridha Mansouri, Hichem Toumi, Leila Ferchichi, Tarek Chaabane",0,0
+15,S1-Sam,08:30,2ING-SSI-03,Audit de sécurité,"2ING-SSI-G1, 2ING-SSI-Dette",34,"Salle 102, Salle 104",62,"Lotfi Belhaj, Mehdi Trabelsi, Chokri Nasri, Walid Bouazizi",0,0
+15,S1-Sam,08:30,L2-LIG-05,Systèmes embarqués,"L2-LIG-G1, L2-LIG-G2, L2-LIG-Dette",67,"Salle 108, Salle 105, Salle 103",94,"Fares Sassi, Sonia Guesmi, Hela Guesmi, Anis Ferchichi, Ridha Guesmi, Ridha Jlassi",0,0
+15,S1-Sam,08:30,L2-LSI-02,Systèmes d'exploitation,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette",96,Amphi A,150,"Sarra Zouari (vacataire), Ridha Chaabane, Imed Masmoudi",0,0
+16,S1-Sam,11:00,L3-LSI-05,Sécurité informatique,"L3-LSI-G1, L3-LSI-G2, L3-LSI-G3, L3-LSI-Dette",89,Amphi B,120,"Olfa Mansouri (vacataire), Anis Toumi (vacataire), Lotfi Gharbi (vacataire)",0,0
+18,S2-Lun,08:30,1ING-07,Management de projet,"1ING-G1, 1ING-G2, 1ING-G3, 2ING-GL-Dette, 2ING-IA-Dette",118,Amphi B,120,"Sonia Nasri, Olfa Haddad, Lotfi Bouazizi",0,0
+18,S2-Lun,08:30,L1-LSI-05,Logique formelle,"L1-LSI-G1, L1-LSI-G2, L1-LSI-G3, L1-LSI-G4, L2-LSI-Dette",124,Amphi A,150,"Fares Jlassi (vacataire), Asma Masmoudi, Rim Hammami",0,0
+18,S2-Lun,08:30,L2-LIG-01,Programmation Java,"L2-LIG-G1, L2-LIG-G2, L2-LIG-Dette",67,"Salle 106, Salle 102",68,"Ridha Chaabane, Imed Masmoudi, Ridha Mansouri, Hichem Toumi",0,0
+19,S2-Lun,11:00,2ING-SSI-01,Cryptographie,"2ING-SSI-G1, 2ING-SSI-Dette",34,Salle 101,36,"Anis Ferchichi, Ridha Guesmi",0,0
+19,S2-Lun,11:00,L1-LIG-02,Mathématiques discrètes,"L1-LIG-G1, L1-LIG-G2",56,Amphi A,150,"Fares Sassi, Sonia Guesmi, Hela Guesmi",0,0
+19,S2-Lun,11:00,L3-LSI-01,Génie logiciel,"L3-LSI-G1, L3-LSI-G2, L3-LSI-G3, L3-LSI-Dette",89,Amphi B,120,"Fares Jlassi (vacataire), Leila Ferchichi, Tarek Chaabane",0,0
+21,S2-Mar,08:30,2ING-GL-01,Architecture logicielle,"2ING-GL-G1, 2ING-GL-G2, 2ING-GL-Dette",72,Amphi A,150,"Lotfi Belhaj, Chokri Nasri, Walid Bouazizi",0,0
+21,S2-Mar,08:30,2ING-IA-01,Apprentissage automatique,"2ING-IA-G1, 2ING-IA-Dette",38,"Salle 101, Salle 103",66,"Imed Masmoudi, Ridha Mansouri, Leila Ferchichi, Tarek Chaabane",0,0
+21,S2-Mar,08:30,2ING-SSI-02,Sécurité des réseaux,"2ING-SSI-G1, 2ING-SSI-Dette",34,"Salle 108, Salle 104",62,"Fares Sassi, Hela Guesmi, Anis Ferchichi, Ridha Guesmi",0,0
+21,S2-Mar,08:30,L2-LIG-03,Statistiques,"L2-LIG-G1, L2-LIG-G2, L2-LIG-Dette",67,"Salle 106, Salle 102",68,"Asma Masmoudi, Sonia Nasri, Lotfi Bouazizi, Ridha Chaabane",0,0
+21,S2-Mar,08:30,L2-LSI-01,Structures de données,"L2-LSI-G1, L2-LSI-G2, L2-LSI-G3, L2-LSI-Dette",96,Amphi B,120,"Fares Rekik (vacataire), Anis Mejri (vacataire), Ridha Jlassi",0,0
+22,S2-Mar,11:00,1ING-02,Théorie des graphes,"1ING-G1, 1ING-G2, 1ING-G3",97,Amphi A,150,"Asma Masmoudi, Sonia Nasri, Ridha Chaabane",0,0
+22,S2-Mar,11:00,L1-LSI-04,Architecture des ordinateurs,"L1-LSI-G1, L1-LSI-G2, L1-LSI-G3, L1-LSI-G4",112,Amphi B,120,"Fares Rekik (vacataire), Ridha Jlassi, Walid Bouazizi",0,0
+22,S2-Mar,11:00,L3-LSI-04,Recherche opérationnelle,"L3-LSI-G1, L3-LSI-G2, L3-LSI-G3, L3-LSI-Dette",89,"Salle 106, Salle 101, Salle 103",102,"Imed Masmoudi, Leila Ferchichi, Tarek Chaabane, Fares Sassi, Hela Guesmi, Ridha Guesmi",0,0
+23,S2-Mar,14:00,L1-LIG-04,Introduction aux SI,"L1-LIG-G1, L1-LIG-G2",56,Amphi B,120,"Fares Rekik (vacataire), Walid Bouazizi, Asma Masmoudi",0,0
